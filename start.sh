@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # run in directory localtunnel-server
+cd localtunnel-server
 
 # server set to run on port 9876
 bin/server --port 9876
