@@ -6,6 +6,6 @@ sudo ln -s /etc/nginx/sites-available/tunnel.conf /etc/nginx/sites-enabled/
 
 nginx -s reload
 
-certbot -d tunnel.intesso.io -d www.tunnel.intesso.io --nginx
+certbot -d tunnel.intesso.io -d *.tunnel.intesso.io --nginx
 
 # sudo certbot renew --dry-run
